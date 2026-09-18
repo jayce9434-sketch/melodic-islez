@@ -1,0 +1,47 @@
+# Melodic Isles: Encore
+
+A free-to-play musical monster collection game for desktop and mobile browsers.
+
+## GitHub setup
+Upload these files directly to the root of a GitHub repository. There are no required folders:
+
+- `index.html`
+- `style.css`
+- `game.js`
+- `app-icon.png`
+- `manifest.webmanifest`
+- `README.md`
+
+Then enable GitHub Pages from the repository's main branch/root.
+
+## Encore update
+- 4 islands: Verdant Groove, Frostbell Atoll, Ember Circuit, Moonlit Reverie
+- 44 monster species total (11 per island)
+- 4 forms for every species: Common, Rare, Epic, Legendary
+- 176 total rarity collection slots
+- Island Titan on every island, with all four rarities
+- Maximum breeding wait remains 90 minutes
+- Offline breeding timers use absolute timestamps
+- Offline monster coin production continues for up to 12 hours
+- 20 permanent quests
+- 3 rotating quests that refresh every 4 hours, including while offline
+- Daily rewards
+- Coins, Gems, Music Notes and Stars all have gameplay uses
+- Gems: instant-finish breeding and reroll egg rarity
+- Music Notes: 20-minute Harmony Boosts and Titan awakening
+- Stars: permanent Island Mastery upgrades and Titan awakening
+- Collection milestones award Stars
+- Permanent island mastery: Amplifier, Lucky Nest, Grand Stage
+- Better Web Audio song engine with island-specific instruments
+- Rare, Epic and Legendary monsters add extra audio layers; Legendary adds sparkle chimes
+- Moonlit Reverie focuses on harp, celesta, glass, choir and the Astral Organon titan
+- Responsive desktop/mobile UI
+- Generated 512x512 app icon and web app manifest
+
+## Save compatibility
+Encore uses `melodicIslesSave_v2`, but automatically checks for the original `melodicIslesSave_v1` save on the same site and upgrades it. The Import Save box also accepts exported v1 save codes.
+
+Keep a copy of your save code before replacing an older build, just in case.
+
+## Testing
+The included screenshot bundle was rendered from the actual game code. JavaScript syntax checking and browser rendering tests were run with no page errors in the tested screens.
